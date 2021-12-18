@@ -112,13 +112,15 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     
-    
+    cursor: pointer;
     left: 700px;
     top: 430px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(117, 72, 72, 0.15);
     border-radius: 4px;
 }
+
+
 
 .about-title {
     font-family: Roboto;
@@ -150,6 +152,12 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+/* ---------------- TEAM ---------------- */
+
+.team-section {
+    background: #F5F4FA;
 }
 
 .team-name {
@@ -237,4 +245,126 @@ body {
 .tel-footer:hover,
 .tel-footer:focus {
     color: #ffffffe1;
+}
+
+
+
+
+/* - - - - - - - PORTFOLIO - - - - - - - */
+
+/* ---------------- HEADER ---------------- */
+
+.header-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.header-link-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.header-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196F3;
+}
+
+.header-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
+
+/* ---------------- BUTTON ---------------- */
+
+.button-portfolio-all {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #2196F3;
+    border-radius: 4px;
+}
+
+
+.button-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+
+/* ---------------- CONTENT ---------------- */
+
+.name-project {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.category-project {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
